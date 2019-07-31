@@ -5,7 +5,7 @@ metadata:
   labels:
     app: vault
 spec:
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -34,7 +34,7 @@ spec:
           - "-domain=cluster.local"
           - "-datacenter=dc1"
           - "-disable-host-node-id"
-          - "-node=vault-1"
+#          - "-node=vault-1"
           - "-data-dir=/home/ubuntu"
       imagePullSecrets:
       - name: secret-bhanu
