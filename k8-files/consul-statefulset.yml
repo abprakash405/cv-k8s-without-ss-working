@@ -35,7 +35,7 @@ spec:
             - "-client=0.0.0.0"
             - "-config-file=/etc/consul.d/ui.json"
             - "-datacenter=dc1"
-            - "-data-dir=/tmp/consul"
+            - "-data-dir=/home/ubuntu/consul"
             - "-domain=cluster.local"
             - "-server"
             - "-ui"
